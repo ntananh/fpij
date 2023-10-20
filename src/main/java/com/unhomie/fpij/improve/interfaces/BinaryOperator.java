@@ -1,4 +1,4 @@
-package com.unhomie.fpij.interfaces;
+package com.unhomie.fpij.improve.interfaces;
 
 import java.util.function.Function;
 

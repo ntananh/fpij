@@ -1,6 +1,6 @@
 package com.unhomie.fpij;
 
-import com.unhomie.fpij.interfaces.BinaryOperator;
+import com.unhomie.fpij.improve.interfaces.BinaryOperator;
 
 import java.util.function.Function;
 
@@ -26,5 +26,8 @@ public class Main {
         BinaryOperator mult = x -> y -> x * y;
 
         System.out.println((add.apply(2).apply(3)));
+        System.out.println((addWithAnonymous.apply(2).apply(3)));
+        System.out.println((addBinary.apply(2).apply(3)));
+        System.out.println((mult.apply(2).apply(3)));
     }
 }
