@@ -7,9 +7,9 @@
     <list default="true" id="c20b2b3a-5a64-4557-a0c3-70edf76fe2db" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/unhomie/fpij/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unhomie/fpij/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/unhomie/fpij/interfaces/BinaryOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unhomie/fpij/improve/interfaces/BinaryOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unhomie/fpij/concept/functional/StringProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unhomie/fpij/concept/functional/StringProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unhomie/fpij/concept/functional/resouces/note.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unhomie/fpij/concept/functional/resouces/note.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unhomie/fpij/improve/interfaces/.gitignore" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Kotlin Class" />
         <option value="Class" />
       </list>
     </option>
@@ -32,11 +33,17 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar:///usr/lib/jvm/jdk1.8.0_45/src.zip!/java/util/function/Function.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="OptimizeOnSaveOptions">
     <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
@@ -60,6 +67,10 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Java&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -72,7 +83,33 @@
       <recent name="com.unhomie.fpij.concept.functional" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.unhomie.fpij.concept.functional.interfaces.five.Main" />
+      <module name="fpij" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.unhomie.fpij.concept.functional.interfaces.five.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.unhomie.fpij.concept.functional.interfaces.generic.Test" />
+      <module name="fpij" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.unhomie.fpij.concept.functional.interfaces.generic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestI2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -88,8 +125,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.unhomie.fpij.concept.functional.interfaces.generic.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.unhomie.fpij.concept.functional.interfaces.generic.Main" />
+      <module name="fpij" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.unhomie.fpij.concept.functional.interfaces.generic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.com.unhomie.fpij.concept.functional.interfaces.generic.Main" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.TestI2" />
       </list>
     </recent_temporary>
@@ -109,11 +162,29 @@
       <workItem from="1697284062895" duration="4194000" />
       <workItem from="1697424794186" duration="1322000" />
       <workItem from="1697495474951" duration="4106000" />
+      <workItem from="1697806228820" duration="7184000" />
+      <workItem from="1697851246076" duration="6516000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/unhomie/fpij/concept/functional/interfaces/generic/Test.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/unhomie/fpij/concept/functional/interfaces/generic/Test.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
