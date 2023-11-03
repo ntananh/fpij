@@ -2,9 +2,11 @@
 
 ## Section 1.1: Interfaces in Java
 
-In Java, an interface specifies one or more methods. The interface is a contract with must be honored by all implementing classes.
+In Java, an interface specifies one or more methods. The interface is a contract with must be honored by all
+implementing classes.
 
-## Section 1.2: Enhancements to Interfaces in Java 8 and Java 9 
+## Section 1.2: Enhancements to Interfaces in Java 8 and Java 9
+
 - _default_ method is an implementation provided by the interface
   that does not have to be overridden by an implementing class
   _default_ methods help in the compilation of legacy code.
@@ -78,3 +80,11 @@ of type X and return a value of type X. [TwoArgsProcessor.java](../interfaces/ge
 
 See implementation here [TestTwoArgsProcessor.java](../interfaces/generic/TestTwoArgsProcessor.java)
 
+### Section 1.7.1: Generic Functional Interfaces with Type  Restrictions
+
+Generic functional interfaces can be restricted to certain type. The class
+in [CountyReceipt.java](../interfaces/generic/restricted/CountyReceipt.java) extends
+the [Receipt](../interfaces/five/Receipt.java) class to include county tax.
+
+As a result, the version of [ReceiptPrinter](../interfaces/five/ReceiptPrinter.java) is no longer adequate. It should be
+rewritten to be generic for classes that extend Receipt.

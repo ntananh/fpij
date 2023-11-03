@@ -1,10 +1,13 @@
 package com.unhomie.fpij.concept.functional.interfaces.five;
-class Receipt {
-	String item;
-	double price;
-	double discount;
-	double tax;
 
+public class Receipt {
+	public String item;
+	public double price;
+	public double discount;
+	public double tax;
+
+	public Receipt() {
+	}
 
 	public Receipt(String item, double price, double discount, double tax) {
 		this.item = item;
