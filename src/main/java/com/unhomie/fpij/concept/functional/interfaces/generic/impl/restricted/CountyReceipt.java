@@ -1,4 +1,4 @@
-package com.unhomie.fpij.concept.functional.interfaces.generic.restricted;
+package com.unhomie.fpij.concept.functional.interfaces.generic.impl.restricted;
 
 import com.unhomie.fpij.concept.functional.interfaces.five.Receipt;
 

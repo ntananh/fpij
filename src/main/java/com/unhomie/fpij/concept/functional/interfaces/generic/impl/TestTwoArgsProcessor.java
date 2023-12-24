@@ -1,4 +1,6 @@
-package com.unhomie.fpij.concept.functional.interfaces.generic;
+package com.unhomie.fpij.concept.functional.interfaces.generic.impl;
+
+import com.unhomie.fpij.concept.functional.interfaces.generic.TwoArgsProcessor;
 
 public class TestTwoArgsProcessor {
 	public static void main(String[] args) {

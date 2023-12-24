@@ -78,13 +78,30 @@ performed can vary.
 A functional interface can be defined that is generic for type X and has a functional method that accepts two arguments
 of type X and return a value of type X. [TwoArgsProcessor.java](../interfaces/generic/TwoArgsProcessor.java)
 
-See implementation here [TestTwoArgsProcessor.java](../interfaces/generic/TestTwoArgsProcessor.java)
+See implementation here [TestTwoArgsProcessor.java](../interfaces/generic/impl/TestTwoArgsProcessor.java)
 
 ### Section 1.7.1: Generic Functional Interfaces with Type  Restrictions
 
 Generic functional interfaces can be restricted to certain type. The class
-in [CountyReceipt.java](../interfaces/generic/restricted/CountyReceipt.java) extends
+in [CountyReceipt.java](../interfaces/generic/impl/restricted/CountyReceipt.java) extends
 the [Receipt](../interfaces/five/Receipt.java) class to include county tax.
 
 As a result, the version of [ReceiptPrinter](../interfaces/five/ReceiptPrinter.java) is no longer adequate. It should be
 rewritten to be generic for classes that extend Receipt.
+
+## Section 1.8: Specializing a Generic Functional Interface.
+
+If the generic function interface of a particular type is used frequently, it is convenient to specialize it for that
+type. Many examples exist in the Java API. Specialization is accomplished by extending or implementing the generic
+functional interface of one type. The resulting interface or class is not generic for that type.
+
+- Functional interface [TwoArgsProcessor](../interfaces/generic/TwoArgsProcessor.java) can be specialized for type
+  Integer by defining a new functional interface that only processes
+  Integers. [TwoIntsProcessor](../interfaces/generic/TwoIntsProcessor.java)
+
+- [TwoArgsProcessor](../interfaces/generic/TwoArgsProcessor.java) can also be specialized by creating an abstract class
+  that processes Integers. [TwoIntsProcessorAbstract](../interfaces/generic/TwoIntsProcessorAbstract.java)
+
+The program in [TestTwoIntsProcessor](../interfaces/generic/impl/TestTwoIntsProcessor.java) demonstrates that the
+functional interface `TwoIntsProcessor` is implemented by `multiplyInts`
+and `subtractInts` and *abstract* class `TwoIntsProcessorAbstract` is extended by `divideInts`.

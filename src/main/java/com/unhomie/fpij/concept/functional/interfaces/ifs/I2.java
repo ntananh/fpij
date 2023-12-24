@@ -1,4 +1,4 @@
-package com.unhomie.fpij.concept.functional.interfaces;
+package com.unhomie.fpij.concept.functional.interfaces.ifs;
 
 public interface I2 {
 

@@ -1,6 +1,6 @@
 package com.unhomie.fpij.concept.functional.interfaces.five;
 
-import com.unhomie.fpij.concept.functional.interfaces.generic.restricted.CountyReceipt;
+import com.unhomie.fpij.concept.functional.interfaces.generic.impl.restricted.CountyReceipt;
 
 public class Main {
 	public static void main(String[] args) {

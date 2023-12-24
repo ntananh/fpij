@@ -1,4 +1,4 @@
-package com.unhomie.fpij.concept.functional.interfaces;
+package com.unhomie.fpij.concept.functional.interfaces.ifs;
 
 import java.util.Random;
 
